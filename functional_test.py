@@ -1,4 +1,5 @@
 from selenium import webdriver
+<<<<<<< HEAD
 import unittest
 
 class NewVisitorTest(unittest.TestCase):
@@ -23,3 +24,10 @@ class NewVisitorTest(unittest.TestCase):
 # browser.quit()
     if __name__ == '__main__':
         unittest.main(warnings='ignore')
+=======
+
+browser = webdriver.Safari()
+browser.get('http://localhost:8000')
+
+assert 'Django' in browser.title
+>>>>>>> b9537fcd9423db0cb27eb165995d9394271ffa3a
