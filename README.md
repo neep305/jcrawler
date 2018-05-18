@@ -29,3 +29,6 @@ with open('file.csv') as csvDataFile:
     for row in csvReader:
         print(row)
 ```
+
+# Data Visualisation
+Going to use 'bokeh' for data visualisation
